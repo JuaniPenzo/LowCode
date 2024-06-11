@@ -1,0 +1,26 @@
+print("Bienvenidos a la aplicacion de enseñanzas de habilidades artisticas")
+a = int(input('''
+    Seleccione entre los siguientes clases
+              1. Clase de pintura
+              2. Clase de dibujo
+              3. Clase Escultura
+              4. Clase para la tercera edad
+              '''))
+
+while a <= 0 or a >= 5:
+    a = int(input('''
+    Selecciones un valor entre 1 y 4
+    Seleccione entre los siguientes clases
+              1. Clase de pintura
+              2. Clase de dibujo
+              3. Clase de escultura
+              4. Clase para la tercera edad
+              '''))
+if a == 1:
+    print("Usted ha seleccionado: Clase de pintura")
+elif a == 2:
+    print("Usted ha seleccionado: Clase de dibujo")
+elif a == 3:
+    print("Usted ha seleccionado: Clase de escultura")
+elif a == 4:
+    print("Usted ha seleccionado: Clase para la tercera edad")
